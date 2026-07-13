@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.07.13.1",
+  "publishedAt": "2026-07-13T12:00:00+08:00",
+  "verifiedThrough": "2026-07-13",
+  "nextReviewDue": "2026-08-13",
+  "cityCount": 49,
+  "sourceCount": 47,
+  "sha256": "b64eb7ad3d2b56f3b81648ac4e14bada665ba588b972069b5dcc13a740d11686",
+  "databaseJson": "database.json",
+  "databaseScript": "database.js",
+  "publication": {
+    "mode": "public-central-database",
+    "redactedFields": [
+      "salesOwner",
+      "customerService"
+    ],
+    "note": "公开中央数据库仅包含假期规则、官方来源和城市覆盖信息。"
+  }
+}
