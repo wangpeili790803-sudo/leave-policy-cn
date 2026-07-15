@@ -1,8 +1,8 @@
 window.LEAVE_DATABASE = {
   "schemaVersion": 2,
-  "dataVersion": "2026.07.13.1",
-  "generatedAt": "2026-07-13",
-  "publishedAt": "2026-07-13T12:00:00+08:00",
+  "dataVersion": "2026.07.15.1",
+  "generatedAt": "2026-07-15",
+  "publishedAt": "2026-07-15T12:00:00+08:00",
   "verifiedThrough": "2026-07-13",
   "nextReviewDue": "2026-08-13",
   "workbook": "全国-假期.xlsx",
@@ -10,7 +10,7 @@ window.LEAVE_DATABASE = {
   "governance": {
     "authority": "仅采用国家法律法规数据库、政府、人大、卫健、人社等官方来源",
     "approvalRule": "AI只能生成待审核建议，正式数据库必须经人工复核后发布",
-    "updatePolicy": "每月例行核验；发现法规修订、废止或链接变化时立即复核",
+    "updatePolicy": "每周自动检查、每月人工抽查；发现法规修订、废止或链接变化时立即复核",
     "offlinePolicy": "联网失败时继续使用本机最近一次成功缓存的数据，并明确显示版本"
   },
   "cityTierSource": {
@@ -706,16 +706,24 @@ window.LEAVE_DATABASE = {
       "title": "云南省女职工劳动保护特别规定",
       "agency": "云南省人民政府",
       "lawType": "政府规章",
-      "publishDate": "2022-10-01",
-      "effectiveDate": "",
-      "officialLink": "https://sft.yn.gov.cn/tzgg/378920.jhtml",
-      "verifiedOn": "2026-07-13",
+      "publishDate": "2024-09-19",
+      "effectiveDate": "2024-11-01",
+      "officialLink": "https://www.yn.gov.cn/bsfw/ztfw/hysy/hysywyk/202409/t20240926_304385.html",
+      "verifiedOn": "2026-07-15",
       "repository": "发布机关官方网站",
       "checkMode": "content",
       "status": "有效"
     }
   },
   "changeLog": [
+    {
+      "version": "2026.07.15.1",
+      "date": "2026-07-15",
+      "summary": "更正云南女职工劳动保护规定的正式官方来源；假期天数未调整",
+      "changes": [
+        "云南：来源由2022年征求意见稿更正为2024年正式有效文本（省政府令第232号），未调整任何假期天数"
+      ]
+    },
     {
       "version": "2026.07.13.1",
       "date": "2026-07-13",
